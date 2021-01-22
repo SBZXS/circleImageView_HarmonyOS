@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:app="http://schemas.huawei.com/apk/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+<com.isoftstone.circleimageview.CircleImageView
+    ohos:id="$+id:image"
+    ohos:height="300vp"
+    ohos:width="180vp"
+    ohos:top_margin="300vp"
+    ohos:layout_alignment="center"
+    ohos:horizontal_center="true"
+    ohos:image_src="$media:hugh"
+    app:civ_border_width="10"
+    app:civ_border_color="#DC143C"
+    app:civ_border_overlay="false"
+    app:civ_circle_background_color="#4169E1"></com.isoftstone.circleimageview.CircleImageView>
+</DirectionalLayout>
